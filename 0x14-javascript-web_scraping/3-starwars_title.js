@@ -1,5 +1,5 @@
 #!/usr/bin/node
-import request from 'request';
+const request = require('request');
 
 if (process.argv.length > 2) {
   const url = 'https://swapi-api.hbtn.io/api/films/' + process.argv[2];

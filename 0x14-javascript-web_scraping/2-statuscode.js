@@ -1,5 +1,5 @@
 #!/usr/bin/node
-import request from 'request';
+const request = require('request');
 
 if (process.argv.length > 2) {
   request(process.argv[2], (err, res, body) => {
